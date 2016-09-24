@@ -152,3 +152,21 @@ function tre() # `tre` is a shorthand for `tree` with hidden files and color ena
 {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+function grr() # Git: Revert changes & Remove all untracked
+{
+	git reset --hard;
+	git clean -fd;
+}
+
+function gr() # Git: Revert changes in specific file
+{
+	git checkout HEAD $@;
+}
+
+function gacp() # Git: add all, commit and push. [-m "comment"]
+{
+	git add .;
+	git commit $@
+	git push
+}
