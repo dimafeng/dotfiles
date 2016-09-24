@@ -2,9 +2,10 @@
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias dev="cd ~/Documents/dev"
 alias g="git"
 alias h="history"
 
 alias localip="ipconfig getifaddr en0"
 alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
+alias dhelp="grep "^function" ~/dotfiles/functions | sed 's/function/+/g' | sed 's/() #/ - /g'"

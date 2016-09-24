@@ -32,8 +32,6 @@ brew cask install dropbox
 brew cask install tunnelblick
 brew cask install atom
 brew cask install flux
-brew cask install dockertoolbox
-
 
 brew cask cleanup
 brew cleanup
