@@ -8,7 +8,7 @@ Target platform is MacOS, but may work with linux (hasn't been tested).
 cd ~
 git clone https://github.com/dimafeng/dotfiles.git
 cd ~/dotfiles
-sh install.sh link_configs
+sh install.sh link
 # install linux & macos compatible parts
 sh install.sh install_commons
 # install macos applications
