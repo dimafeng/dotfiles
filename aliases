@@ -7,5 +7,4 @@ alias g="git"
 alias h="history"
 
 alias localip="ipconfig getifaddr en0"
-alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
 alias dhelp="grep "^function" ~/dotfiles/functions | sed 's/function/+/g' | sed 's/() #/ - /g'"

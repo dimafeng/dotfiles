@@ -1,0 +1,8 @@
+[user]
+	name = Dmitry Fedosov
+	email = "(none)"
+[core]
+	autocrlf = input
+	askpass = git-gui--askpass
+[push]
+	default = matching
