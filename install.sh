@@ -42,6 +42,9 @@ install_commons() {
     rm -rf $TEMP_PATH_FOR_THEME
     mkdir $TEMP_PATH_FOR_THEME
     wget https://raw.githubusercontent.com/dracula/zsh/master/dracula.zsh-theme -O ~/.oh-my-zsh/themes/dracula.zsh-theme
+    
+    # Install some pyton packages
+    pip install pygments # required by json
 }
 
 install_applications_mac() {
