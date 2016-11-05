@@ -13,10 +13,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'Shougo/vimproc.vim'
-Plugin 'Quramy/tsuquyomi'
+"Plugin 'Quramy/tsuquyomi'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'vim-scripts/AutoComplPop'
-Plugin 'dracula/vim'
 
 call vundle#end()            " required
 filetype plugin indent on
