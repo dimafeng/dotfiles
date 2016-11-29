@@ -171,8 +171,14 @@ function gacp() # Git: add all, commit and push. [-m "comment"]
 	git push
 }
 
-dcleanup() # Docker: Removes all unused containers and images
+function dcleanup() # Docker: Removes all unused containers and images
 {
 	docker rm -v $(docker ps --filter status=exited -q 2>/dev/null) 2>/dev/null
 	docker rmi $(docker images --filter dangling=true -q 2>/dev/null) 2>/dev/null
+}
+
+function refreshdns() # Flushes DNS
+{
+	sudo dscacheutil -flushcache
+	sudo killall -HUP mDNSResponder
 }
