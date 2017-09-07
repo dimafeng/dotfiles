@@ -5,6 +5,7 @@ alias dt="cd ~/Desktop"
 alias dev="cd ~/Documents/dev"
 alias g="git"
 alias h="history"
+alias lc='colorls -r'
 
 alias localip="ipconfig getifaddr en0"
 alias dhelp="grep "^function" ~/dotfiles/functions | sed 's/function/+/g' | sed 's/() #/ - /g'"
