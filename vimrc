@@ -16,9 +16,11 @@ Plugin 'Shougo/vimproc.vim'
 "Plugin 'Quramy/tsuquyomi'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'vim-scripts/AutoComplPop'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()            " required
 filetype plugin indent on
+filetype plugin on
 
 set number
 set tabstop=4

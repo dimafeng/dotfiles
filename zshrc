@@ -86,3 +86,4 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/node@4/bin:$PATH"
