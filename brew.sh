@@ -24,14 +24,16 @@ brew install htop
 brew install git
 #brew install zsh
 
-brew cask install keepassx
-brew cask install skype
+brew cask install keeweb
+#brew cask install skype
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install dropbox
 brew cask install tunnelblick
-brew cask install atom
+#brew cask install atom
 brew cask install flux
+brew cask install insomnia
+
 
 brew cask cleanup
 brew cleanup
