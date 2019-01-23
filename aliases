@@ -9,3 +9,6 @@ alias lc='colorls -r'
 
 alias localip="ipconfig getifaddr en0"
 alias dhelp="grep "^function" ~/dotfiles/functions | sed 's/function/+/g' | sed 's/() #/ - /g'"
+
+alias dockps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}"'                                                            
+alias dockports='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}"'
